@@ -1,0 +1,53 @@
+
+$primary: #7036BA;
+$secondary: #00BFB4;
+$danger: #A76BF2;
+$bg-primary: #285E67;
+$position-values: (
+  0: 0,
+  50: 100%,
+  100: 473%
+);
+
+body{
+  font-family: "Raleway", sans-serif;
+    
+}
+#portada{
+    background-image: url(https://s3-alpha-sig.figma.com/img/1605/0295/92869d6640e5d5e0591abfe56ab7df02?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4kc~2nQbDzc3GGIqobaC8cajJfULQS1cqnnIiK~pgqoOidcSgDVxsnXqTexTa6zZ6~kNRScnRilSCjFRt8tr4wYAAERDb0yB9nhG4E~StfR0mIynQWgzFVwL2RlQCFIJekBTonCHW8JTvdwny1144rDFeWZUR5ty25QIQkHbs86WP4juSJhdd2L64QJAH8kjIur-K0HHJQBdE3et4yZUqBVzdULQGOabh3UUKqjt36vGjJT58SDBH6A8vacIUj18ERUOiSglag-zMtf4PZQcGSPIyXdJ~y46UtTzfE01IMqz17DA0t0dWsQJ2fM1Wa0TJc0EbBizThRaVhsV7tgng__) ;
+}
+#banner{
+  height: 800px;
+}
+.redondo {
+  border-radius: 25px;
+  padding: 20px;
+  
+}
+.p-b{
+  
+  width: 55px;
+  
+}
+#features {
+  i{
+    font-size: 70px;
+    padding: 5px 10px;
+  }
+}
+.fondo-completo{
+  background-image: url(https://s3-alpha-sig.figma.com/img/1605/0295/92869d6640e5d5e0591abfe56ab7df02?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T4kc~2nQbDzc3GGIqobaC8cajJfULQS1cqnnIiK~pgqoOidcSgDVxsnXqTexTa6zZ6~kNRScnRilSCjFRt8tr4wYAAERDb0yB9nhG4E~StfR0mIynQWgzFVwL2RlQCFIJekBTonCHW8JTvdwny1144rDFeWZUR5ty25QIQkHbs86WP4juSJhdd2L64QJAH8kjIur-K0HHJQBdE3et4yZUqBVzdULQGOabh3UUKqjt36vGjJT58SDBH6A8vacIUj18ERUOiSglag-zMtf4PZQcGSPIyXdJ~y46UtTzfE01IMqz17DA0t0dWsQJ2fM1Wa0TJc0EbBizThRaVhsV7tgng__);
+}
+
+.nav-link, .navbar-toggler-icon, .collapse{
+  color: white;
+}
+.texto-portada{
+  width: 505px;
+  height: 365px;
+  
+}
+.form-check-input:checked{
+  background-color: $secondary;
+  border: $secondary;
+}

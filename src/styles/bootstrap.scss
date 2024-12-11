@@ -1,0 +1,23 @@
+// src/styles/bootstrap.scss
+
+// Sobrescribe variables de Bootstrap
+$primary: #7036BA;
+$secondary: #00BFB4;
+$danger: #A76BF2;
+$bg-primary: #285E67;
+
+$position-values: (
+  0: 15%,
+  50:50%,
+  100: 100%
+);
+
+
+
+
+ 
+
+
+
+// Importa Bootstrap desde node_modules
+@import "bootstrap/scss/bootstrap";
